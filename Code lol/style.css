@@ -41,4 +41,5 @@ header{
 
 footer{
 grid-area: foooter;
+background-color: red;
 }
