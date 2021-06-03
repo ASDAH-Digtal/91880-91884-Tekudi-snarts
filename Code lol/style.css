@@ -1,8 +1,44 @@
-container{
+.container{
   display: grid;
-grid-template-columns: 2fr 3fr;
+grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas:
-"nav nav"
-"picture 1"
+"nav nav nav"
+"header header header"
+"pageNames"
+"profilePic nameOfPage basicInfo"
+"paragraph"
+"footer"
+}
+
+nav{
+grid-area: nav;
+}
+
+header{
+  grid-area: header;
+}
+
+.pageName{
+  grid-area: pageName; 
+}
+
+.profilePic{
+  grid-area: profilePic;
+}
+
+.nameOfPage{
+  grid-area: nameOfPage;
+}
+
+.basicInfo{
+  grid-area: basicInfo;
+}
+
+.paragraph{
+  grid-area: paragraph;
+}
+
+footer{
+grid-area: foooter;
 }
