@@ -1,0 +1,45 @@
+.container{
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto;
+grid-template-areas:
+"nav nav nav"
+"header header header"
+"pageNames"
+"profilePic nameOfPage basicInfo"
+"paragraph paragraph paragraph"
+"footer footer footer"
+}
+
+nav{
+grid-area: nav;
+}
+
+header{
+  grid-area: header;
+}
+
+.pageName{
+  grid-area: pageName; 
+}
+
+.profilePic{
+  grid-area: profilePic;
+}
+
+.nameOfPage{
+  grid-area: nameOfPage;
+}
+
+.basicInfo{
+  grid-area: basicInfo;
+}
+
+.paragraph{
+  grid-area: paragraph;
+}
+
+footer{
+grid-area: foooter;
+background-color: red;
+}
