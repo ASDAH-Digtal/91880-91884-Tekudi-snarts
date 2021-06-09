@@ -7,8 +7,8 @@ grid-template-areas:
 "header header header"
 "pageNames"
 "profilePic nameOfPage basicInfo"
-"paragraph"
-"footer"
+"paragraph paragraph paragraph"
+"footer footer footer"
 }
 
 nav{
