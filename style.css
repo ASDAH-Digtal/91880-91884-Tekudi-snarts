@@ -11,35 +11,46 @@ grid-template-areas:
 "footer footer footer"
 }
 
+body{
+  background-color: #4326FF;
+}
+
 nav{
 grid-area: nav;
+background-color: #ffffff;
 }
 
 header{
   grid-area: header;
+  background-color: #ffffff;
 }
 
-.pageName{
-  grid-area: pageName; 
+.pageNames{
+  grid-area: pageNames; 
+  background-color: #ffffff;
 }
 
 .profilePic{
   grid-area: profilePic;
+  background-color: #ffffff;
 }
 
 .nameOfPage{
   grid-area: nameOfPage;
+  background-color: #ffffff;
 }
 
 .basicInfo{
   grid-area: basicInfo;
+  background-color: #ffffff;
 }
 
 .paragraph{
   grid-area: paragraph;
+  background-color: #ffffff;
 }
 
 footer{
 grid-area: foooter;
-background-color: red;
+background-color: #ffffff;
 }
