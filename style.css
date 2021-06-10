@@ -1,56 +1,81 @@
 .container{
   display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: auto;
-grid-template-areas:
-"nav nav nav"
-"header header header"
-"pageNames"
-"profilePic nameOfPage basicInfo"
-"paragraph paragraph paragraph"
-"footer footer footer"
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header"
+  "pageNames profilePic nameOfPage"
+  "pageNames profilePic basicInfo"
+  "paragraph paragraph paragraph"
+  "footer footer footer";
 }
 
 body{
-  background-color: #4326FF;
+  background-color: #ffffff;
 }
 
 nav{
-grid-area: nav;
-background-color: #ffffff;
+  grid-area: nav;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center; <!--lmao this whole thing is actually pointless-->
 }
 
 header{
   grid-area: header;
-  background-color: #ffffff;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
 }
 
 .pageNames{
   grid-area: pageNames; 
   background-color: #ffffff;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
 }
 
 .profilePic{
   grid-area: profilePic;
   background-color: #ffffff;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
 }
 
 .nameOfPage{
   grid-area: nameOfPage;
   background-color: #ffffff;
+  border-style: groove;
+  padding: 20px;
+  text-align: center;
+
 }
 
 .basicInfo{
   grid-area: basicInfo;
   background-color: #ffffff;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+
 }
 
 .paragraph{
   grid-area: paragraph;
   background-color: #ffffff;
+  border-style: groove;
+  padding: 500px;
+  text-align: center;
 }
 
 footer{
-grid-area: foooter;
-background-color: #ffffff;
+  grid-area: footer;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
 }
