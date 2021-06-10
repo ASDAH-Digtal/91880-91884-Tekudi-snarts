@@ -50,7 +50,7 @@ header{
   grid-area: nameOfPage;
   background-color: #ffffff;
   border-style: groove;
-  padding: 20px;
+  padding: 1px;
   text-align: center;
 
 }
@@ -59,7 +59,7 @@ header{
   grid-area: basicInfo;
   background-color: #ffffff;
   border-style: groove;
-  padding: 10px;
+  padding: 50px;
   text-align: center;
 
 }
