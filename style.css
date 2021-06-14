@@ -8,10 +8,11 @@
   "pageNames profilePic basicInfo"
   "paragraph paragraph paragraph"
   "footer footer footer";
+  grid-gap: 10px
 }
 
 body{
-  background-color: #ffffff;
+  background-color: #8420d6;
 }
 
 nav{
@@ -50,7 +51,7 @@ header{
   grid-area: nameOfPage;
   background-color: #ffffff;
   border-style: groove;
-  padding: 1px;
+  padding: 25px;
   text-align: center;
 
 }
