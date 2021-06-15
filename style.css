@@ -6,13 +6,13 @@
   "header header header"
   "pageNames profilePic nameOfPage"
   "pageNames profilePic basicInfo"
-  "paragraph paragraph paragraph"
+  "image paragraph paragraph"
   "footer footer footer";
   grid-gap: 10px
 }
 
 body{
-  background-color: #8420d6;
+  background-color: #00c6ed;
 }
 
 nav{
@@ -20,7 +20,7 @@ nav{
   background-color: #00eda6;
   border-style: groove;
   padding: 10px;
-  text-align: center; <!--lmao this whole thing is actually pointless-->
+  text-align: center; /*lmao this whole thing is actually pointless*/
 }
 
 header{
@@ -29,54 +29,79 @@ header{
   border-style: groove;
   padding: 10px;
   text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .pageNames{
   grid-area: pageNames; 
-  background-color: #ffffff;
+  background-color: #ff0077;
   border-style: groove;
   padding: 10px;
   text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .profilePic{
   grid-area: profilePic;
   background-color: #ffffff;
   border-style: groove;
-  padding: 10px;
   text-align: center;
+  
 }
 
 .nameOfPage{
   grid-area: nameOfPage;
-  background-color: #ffffff;
+  background-color: #ff0077;
   border-style: groove;
   padding: 25px;
   text-align: center;
-
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .basicInfo{
+
+  grid-area: basicInfo;
+  background-color: #ff0077;
+  border-style: groove;
+  padding: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph{
+  grid-area: paragraph;
+  background-color: #b901bf;
+  border-style: groove;
+  padding: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraphTwo{
   grid-area: basicInfo;
   background-color: #ffffff;
   border-style: groove;
   padding: 50px;
   text-align: center;
-
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.paragraph{
-  grid-area: paragraph;
-  background-color: #ffffff;
+.image{
+  grid-area: footer;
+  background-color: #00eda6;
   border-style: groove;
-  padding: 500px;
-  text-align: center;
+  padding: 10px;
 }
-
 footer{
   grid-area: footer;
   background-color: #00eda6;
   border-style: groove;
   padding: 10px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
