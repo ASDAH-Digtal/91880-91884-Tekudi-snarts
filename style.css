@@ -6,7 +6,8 @@
   "header header header"
   "pageNames profilePic nameOfPage"
   "pageNames profilePic basicInfo"
-  "image paragraph paragraph"
+  "sideProfile paragraph paragraph"
+  "paragraphTwo paragraphTwo sideProfileTwo"
   "footer footer footer";
   grid-gap: 10px
 }
@@ -29,18 +30,16 @@ header{
   border-style: groove;
   padding: 10px;
   text-align: center;
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .pageNames{
   grid-area: pageNames; 
-  background-color: #ff0077;
+  background-color: #13cf45;
   border-style: groove;
   padding: 10px;
   text-align: center;
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+ font-family: 'Titillium Web', sans-serif; 
 }
 
 .profilePic{
@@ -48,60 +47,63 @@ header{
   background-color: #ffffff;
   border-style: groove;
   text-align: center;
-  
 }
 
 .nameOfPage{
   grid-area: nameOfPage;
-  background-color: #ff0077;
+  background-color: #ffffff;
   border-style: groove;
   padding: 25px;
   text-align: center;
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+ font-family: 'Titillium Web', sans-serif;
 }
 
 .basicInfo{
 
   grid-area: basicInfo;
-  background-color: #ff0077;
-  border-style: groove;
-  padding: 50px;
-  text-align: center;
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.paragraph{
-  grid-area: paragraph;
-  background-color: #b901bf;
-  border-style: groove;
-  padding: 50px;
-  text-align: center;
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.paragraphTwo{
-  grid-area: basicInfo;
   background-color: #ffffff;
   border-style: groove;
   padding: 50px;
   text-align: center;
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
-.image{
-  grid-area: footer;
-  background-color: #00eda6;
+
+.paragraph{
+  grid-area: paragraph;
+  background-color: #ffffff;
+  border-style: groove;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.paragraphTwo{
+  grid-area: paragraphTwo;
+  background-color: #ffffff;
+  border-style: groove;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+.sideProfile{
+  grid-area: sideProfile;
+  background-color: #ffffff;
   border-style: groove;
   padding: 10px;
 }
+
+.sideProfileTwo{
+  grid-area: sideProfileTwo;
+  background-color: #ffffff; 
+  border-style: groove;
+  padding: 10px;
+}
+
 footer{
   grid-area: footer;
   background-color: #00eda6;
   border-style: groove;
   padding: 10px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+ font-family: 'Titillium Web', sans-serif;
 }
