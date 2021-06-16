@@ -53,7 +53,7 @@ header{
   grid-area: nameOfPage;
   background-color: #ffffff;
   border-style: groove;
-  padding: 25px;
+  padding: 5px;
   text-align: center;
  font-family: 'Titillium Web', sans-serif;
 }
@@ -63,7 +63,7 @@ header{
   grid-area: basicInfo;
   background-color: #ffffff;
   border-style: groove;
-  padding: 50px;
+  padding: 75px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
 }
