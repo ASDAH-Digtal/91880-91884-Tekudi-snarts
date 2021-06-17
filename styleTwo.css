@@ -1,27 +1,19 @@
-.container{ 
+.container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: 
-  "header header header"
-  "pageNames profilePic nameOfPage"
-  "pageNames profilePic basicInfo"
-  "sideProfile paragraph paragraph"
-  "paragraphTwo paragraphTwo sideProfileTwo"
-  "footer footer footer";
-  grid-gap: 10px
+  "header header header header"
+  "pageNames profilePic profilePic nameOfPage"
+  "pageNames profilePicTwo profilePicTwo basicInfo"
+  "sideProfile paragraph paragraph paragraph"
+  "paragraphTwo paragraphTwo paragraphTwo sideProfileTwo"
+  "footer footer footer footer" ;
+  grid-gap: 10px;
 }
 
 body{
   background-color: #00c6ed;
-}
-
-nav{
-  grid-area: nav;
-  background-color: #00eda6;
-  border-style: groove;
-  padding: 10px;
-  text-align: center; /*lmao this whole thing is actually pointless*/
 }
 
 header{
@@ -44,6 +36,14 @@ header{
 
 .profilePic{
   grid-area: profilePic;
+  background-color: #ffffff;
+  border-style: groove;
+  text-align: center;
+  
+}
+
+.profilePicTwo{
+  grid-area: profilePicTwo;
   background-color: #ffffff;
   border-style: groove;
   text-align: center;
@@ -106,4 +106,8 @@ footer{
   padding: 10px;
   text-align: center;
  font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+  max-width: 400px;
 }
