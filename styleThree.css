@@ -1,0 +1,113 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header header"
+  "pageNames profilePic profilePicTwo nameOfPage"
+  "pageNames profilePic profilePicTwo basicInfo"
+  "sideProfile paragraph paragraph paragraph"
+  "paragraphTwo paragraphTwo paragraphTwo sideProfileTwo"
+  "footer footer footer footer" ;
+  grid-gap: 10px;
+}
+
+body{
+  background-color: #00c6ed;
+}
+
+header{
+  grid-area: header;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.pageNames{
+  grid-area: pageNames; 
+  background-color: #13cf45;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ font-family: 'Titillium Web', sans-serif; 
+}
+
+.profilePic{
+  grid-area: profilePic;
+  background-color: #ffffff;
+  border-style: groove;
+  text-align: center;
+  
+}
+
+.profilePicTwo{
+  grid-area: profilePicTwo;
+  background-color: #ffffff;
+  border-style: groove;
+  text-align: center;
+}
+
+.nameOfPage{
+  grid-area: nameOfPage;
+  background-color: #ffffff;
+  border-style: groove;
+  padding: 5px;
+  text-align: center;
+ font-family: 'Titillium Web', sans-serif;
+}
+
+.basicInfo{
+
+  grid-area: basicInfo;
+  background-color: #ffffff;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.paragraph{
+  grid-area: paragraph;
+  background-color: #ffffff;
+  border-style: groove;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.paragraphTwo{
+  grid-area: paragraphTwo;
+  background-color: #ffffff;
+  border-style: groove;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+.sideProfile{
+  grid-area: sideProfile;
+  background-color: #ffffff;
+  border-style: groove;
+  padding: 10px;
+}
+
+.sideProfileTwo{
+  grid-area: sideProfileTwo;
+  background-color: #ffffff; 
+  border-style: groove;
+  padding: 10px;
+}
+
+footer{
+  grid-area: footer;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+  max-width: 400px;
+}
