@@ -1,0 +1,149 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header header"
+  "pageNames profilePic profilePic nameOfPage"
+  "pageNames profilePicTwo profilePicTwo basicInfo"
+  "vibeOne vibeOne vibeTwo vibeTwo"
+  "vibeThree vibeThree vibeFour vibeFour"
+  "vibeFive vibeFive vibeSix vibeSix"
+  "vibeSeven vibeSeven vibeEight vibeEight"
+  "vibeNine vibeNine vibeNine vibeNine"
+  "footer footer footer footer" ;
+  grid-gap: 10px;
+}
+.body{
+background-color: #00c6ed;
+}
+
+header{
+  grid-area: header;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+}
+
+.basicInfo{
+  grid-area: basicInfo;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+}
+
+.pageNames{
+  grid-area: pageNames;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+}
+
+.profilePic{
+  grid-area: profilePic;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+}
+
+.profilePicTwo{
+  grid-area: profilePicTwo;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+}
+
+.nameOfPage{
+  grid-area: nameOfPage;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+  }
+
+  .vibeOne{
+  grid-area: vibeOne;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ } 
+
+  .vibeTwo{
+  grid-area: vibeTwo;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ } 
+
+  .vibeThree{
+  grid-area: vibeThree;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ } 
+
+  .vibeFour{
+  grid-area: vibeFour;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ } 
+
+  .vibeFive{
+  grid-area: vibeFive;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ } 
+
+  .vibeSix{
+  grid-area: vibeSix;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ } 
+
+  .vibeSeven{
+  grid-area: vibeSeven;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ } 
+
+  .vibeEight{
+  grid-area: vibeEight;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ } 
+
+  .vibeNine{
+  grid-area: vibeNine;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ } 
+
+  footer{
+  grid-area: footer;
+  background-color: #00eda6;
+  border-style: groove;
+  padding: 10px;
+  text-align: center;
+ } 
+
+ 
