@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -29,7 +31,10 @@ header{
   grid-area: pageNames; 
   background-color: #13cf45;
   border-style: groove;
-  padding: 10px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
  font-family: 'Titillium Web', sans-serif; 
 }
@@ -88,7 +93,10 @@ header{
   grid-area: paragraph;
   background-color: #ffffff;
   border-style: groove;
-  padding: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -97,7 +105,10 @@ header{
   grid-area: paragraphTwo;
   background-color: #ffffff;
   border-style: groove;
-  padding: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
 }

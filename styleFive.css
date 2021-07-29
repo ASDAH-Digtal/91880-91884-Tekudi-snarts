@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6,11 +8,9 @@
   "header header header header"
   "pageNames profilePic profilePic nameOfPage"
   "pageNames profilePicTwo profilePicTwo basicInfo"
-  "vibeOne vibeOne vibeTwo vibeTwo"
   "vibeThree vibeThree vibeFour vibeFour"
   "vibeFive vibeFive vibeSix vibeSix"
   "vibeSeven vibeSeven vibeEight vibeEight"
-  "vibeNine vibeNine vibeNine vibeNine"
   "footer footer footer footer" ;
   grid-gap: 10px;
 }
@@ -30,7 +30,10 @@ header{
   grid-area: basicInfo;
   background-color: #00eda6;
   border-style: groove;
-  padding: 10px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
 }
 
@@ -38,7 +41,10 @@ header{
   grid-area: pageNames;
   background-color: #00eda6;
   border-style: groove;
-  padding: 10px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
 }
 

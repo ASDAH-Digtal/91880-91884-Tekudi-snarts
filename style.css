@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
 .container{ 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -28,7 +30,6 @@ header{
   grid-area: header;
   background-color: #00eda6;
   border-style: groove;
-  padding: 10px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -37,9 +38,11 @@ header{
   grid-area: pageNames; 
   background-color: #13cf45;
   border-style: groove;
-  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
- font-family: 'Titillium Web', sans-serif; 
+ font-family: 'Titillium Web', sans-serif;
+ text-size: 
 }
 
 .profilePic{
@@ -53,7 +56,8 @@ header{
   grid-area: nameOfPage;
   background-color: #ffffff;
   border-style: groove;
-  padding: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
  font-family: 'Titillium Web', sans-serif;
 }
@@ -63,7 +67,8 @@ header{
   grid-area: basicInfo;
   background-color: #ffffff;
   border-style: groove;
-  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -72,7 +77,10 @@ header{
   grid-area: paragraph;
   background-color: #ffffff;
   border-style: groove;
-  padding: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -81,7 +89,10 @@ header{
   grid-area: paragraphTwo;
   background-color: #ffffff;
   border-style: groove;
-  padding: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -89,21 +100,22 @@ header{
   grid-area: sideProfile;
   background-color: #ffffff;
   border-style: groove;
-  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .sideProfileTwo{
   grid-area: sideProfileTwo;
   background-color: #ffffff; 
   border-style: groove;
-  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 footer{
   grid-area: footer;
   background-color: #00eda6;
   border-style: groove;
-  padding: 10px;
   text-align: center;
  font-family: 'Titillium Web', sans-serif;
 }
