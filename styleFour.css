@@ -36,7 +36,9 @@ header{
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
- font-family: 'Titillium Web', sans-serif; 
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 20px;
+
 }
 
 .profilePic{
@@ -52,6 +54,8 @@ header{
   background-color: #ffffff;
   border-style: groove;
   text-align: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
 
 .profilePicThree{
@@ -59,7 +63,8 @@ header{
   background-color: #ffffff;
   border-style: groove;
   text-align: center;
-  
+  padding-top: 100px;
+  padding-bottom: 25px;
 }
 
 .profilePicFour{
@@ -67,7 +72,8 @@ header{
   background-color: #ffffff;
   border-style: groove;
   text-align: center;
-
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .nameOfPage{
@@ -76,41 +82,48 @@ header{
   border-style: groove;
   padding: 5px;
   text-align: center;
- font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  padding-top: 150px;
+  padding-bottom: 50px;
+ font-size: 20px;   
 }
 
 .basicInfo{
-
   grid-area: basicInfo;
   background-color: #ffffff;
   border-style: groove;
   padding: 10px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  padding-top: 120px;
+  padding-bottom: 50px;
 }
 
 .paragraph{
   grid-area: paragraph;
   background-color: #ffffff;
   border-style: groove;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 150px;
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
 }
 
 .paragraphTwo{
   grid-area: paragraphTwo;
   background-color: #ffffff;
   border-style: groove;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 150px;
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
 }
 .sideProfile{
   grid-area: sideProfile;

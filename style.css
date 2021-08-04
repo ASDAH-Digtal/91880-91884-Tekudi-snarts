@@ -41,8 +41,9 @@ header{
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
- font-family: 'Titillium Web', sans-serif;
- text-size: 
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+
 }
 
 .profilePic{
@@ -60,6 +61,7 @@ header{
   padding-bottom: 50px;
   text-align: center;
  font-family: 'Titillium Web', sans-serif;
+ font-size: 20px;  
 }
 
 .basicInfo{
@@ -71,6 +73,7 @@ header{
   padding-bottom: 50px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
 }
 
 .paragraph{
@@ -83,6 +86,7 @@ header{
   padding-right: 50px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
 }
 
 .paragraphTwo{
@@ -95,6 +99,7 @@ header{
   padding-right: 50px;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
 }
 .sideProfile{
   grid-area: sideProfile;
@@ -102,6 +107,7 @@ header{
   border-style: groove;
   padding-top: 50px;
   padding-bottom: 50px;
+font-size: 20px;
 }
 
 .sideProfileTwo{
@@ -110,6 +116,7 @@ header{
   border-style: groove;
   padding-top: 50px;
   padding-bottom: 50px;
+font-size: 20px;
 }
 
 footer{
@@ -118,4 +125,5 @@ footer{
   border-style: groove;
   text-align: center;
  font-family: 'Titillium Web', sans-serif;
+ font-size: 20px;
 }
