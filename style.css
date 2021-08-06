@@ -15,7 +15,7 @@
 }
 
 body{
-  background-color: #00c6ed;
+  background-color: #ffffff;
 }
 
 nav{
@@ -29,6 +29,7 @@ nav{
 header{
   grid-area: header;
   background-color: #00eda6;
+
   border-style: groove;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
@@ -36,7 +37,7 @@ header{
 
 .pageNames{
   grid-area: pageNames; 
-  background-color: #13cf45;
+  background-color: #00eda6;
   border-style: groove;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -48,14 +49,14 @@ header{
 
 .profilePic{
   grid-area: profilePic;
-  background-color: #ffffff;
+  background-color: #00eda6;
   border-style: groove;
   text-align: center;
 }
 
 .nameOfPage{
   grid-area: nameOfPage;
-  background-color: #ffffff;
+  background-color: #00eda6;
   border-style: groove;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -67,7 +68,7 @@ header{
 .basicInfo{
 
   grid-area: basicInfo;
-  background-color: #ffffff;
+  background-color: #00eda6;
   border-style: groove;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -78,7 +79,7 @@ header{
 
 .paragraph{
   grid-area: paragraph;
-  background-color: #ffffff;
+  background-color: #00eda6;
   border-style: groove;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -91,7 +92,7 @@ header{
 
 .paragraphTwo{
   grid-area: paragraphTwo;
-  background-color: #ffffff;
+  background-color: #00eda6;
   border-style: groove;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -103,7 +104,7 @@ header{
 }
 .sideProfile{
   grid-area: sideProfile;
-  background-color: #ffffff;
+  background-color: #00eda6;
   border-style: groove;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -112,7 +113,7 @@ font-size: 20px;
 
 .sideProfileTwo{
   grid-area: sideProfileTwo;
-  background-color: #ffffff; 
+  background-color: #00eda6; 
   border-style: groove;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -126,4 +127,8 @@ footer{
   text-align: center;
  font-family: 'Titillium Web', sans-serif;
  font-size: 20px;
+}
+
+ img {
+  max-width: 100%;
 }
