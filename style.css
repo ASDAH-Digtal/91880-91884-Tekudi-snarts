@@ -29,7 +29,6 @@ nav{
 header{
   grid-area: header;
   background-color: #00eda6;
-
   border-style: groove;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
